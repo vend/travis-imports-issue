@@ -1,7 +1,9 @@
 version: ~> 1.0
 import:
-  - "build.yml"
-  - "deploy.yml"
+- "build.yml"
+  mode: deep_merge_append
+- "deploy.yml"
+  mode: deep_merge_append
 
 language: go
 go: 1.12.x
