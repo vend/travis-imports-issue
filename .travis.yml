@@ -7,7 +7,7 @@ language: go
 go: 1.12.x
 
 before_install:
-- echo '1 .travis.yml before install'
+- echo '1 .travis.yml before_install'
 
 script:
 - echo '5 .travis.yml script'

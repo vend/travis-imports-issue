@@ -4,7 +4,7 @@ import:
   mode: deep_merge_prepend
 
 before_install:
-- echo '3 deploy.yml before install'
+- echo '3 deploy.yml before_install'
 
 deploy:
 - provider: script
