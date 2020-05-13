@@ -4,4 +4,4 @@ import:
   mode: deep_merge_prepend
 
 after_success:
-- echo "5 build.yml after_success"
+- echo "6 build.yml after_success"
