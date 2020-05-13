@@ -1,0 +1,19 @@
+version: ~> 1.0
+import:
+  - "build.yml"
+  - "deploy.yml"
+
+language: go
+go: 1.12.x
+
+before_install:
+- echo '1 .travis.yml before install'
+
+script:
+  - echo "3 .travis.yml script"
+
+deploy:
+- provider: script
+  script: echo "6 .travis.yml deploy"
+  on:
+    all_branches: true
