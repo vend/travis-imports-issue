@@ -8,6 +8,6 @@ before_install:
 
 deploy:
 - provider: script
-  script: echo "8 deploy.yml deploy"
+  script: echo '8 deploy.yml deploy'
   on:
     branch: master

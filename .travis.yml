@@ -10,10 +10,10 @@ before_install:
 - echo '1 .travis.yml before install'
 
 script:
-  - echo "5 .travis.yml script"
+- echo '5 .travis.yml script'
 
 deploy:
 - provider: script
-  script: echo "7 .travis.yml deploy"
+  script: echo '7 .travis.yml deploy'
   on:
     all_branches: true
